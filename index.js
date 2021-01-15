@@ -35,7 +35,7 @@ const start = (aruga = new Client()) => {
 	    })
 	    } else {
         await aruga.simulateTyping(chat.id, true).then(async () => {
-          await aruga.sendText(chat.id, `what up y'all~, I'm Thoriq BOT. Untuk mencari tahu command BOT, ketik ${prefix}menu`)
+          await aruga.sendText(chat.id, `what up y'all~, I'm Asep-it  BOT. Untuk mencari tahu command BOT, ketik ${prefix}menu`)
         })
 	    }
 	}
